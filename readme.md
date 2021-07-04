@@ -66,7 +66,7 @@ Este código foi gerado ao longo do hands-on que foi realizado ao vivo no evento
    cd\\{LOCAL_DA_PASTA}
 3. Rode o comando:
    
-   mvn clean test surefire-report:report
+   mvn surefire-report:report
 4. Volte para o IntelliJ IDEA
 5. Expanda o projeto até que apareça a pasta "target" > "site"
 6. Clique com o botão direito no arquivo "surefire-report.html"
