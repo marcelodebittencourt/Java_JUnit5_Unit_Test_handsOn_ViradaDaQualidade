@@ -54,7 +54,7 @@ Este código foi gerado ao longo do hands-on que foi realizado ao vivo no evento
 1. Abra o CMD (Prompt de comando)
 2. Acesse a pasta onde encontra-se o projeto:
 
-   cd\{LOCAL_DA_PASTA}
+   cd\\{LOCAL_DA_PASTA}
 3. Rode o comando:
 
    mvn clean test
@@ -63,7 +63,7 @@ Este código foi gerado ao longo do hands-on que foi realizado ao vivo no evento
 1. Abra o CMD (Prompt de comando)
 2. Acesse a pasta onde encontra-se o projeto:
    
-   cd\{LOCAL_DA_PASTA}
+   cd\\{LOCAL_DA_PASTA}
 3. Rode o comando:
    
    mvn clean test surefire-report:report
