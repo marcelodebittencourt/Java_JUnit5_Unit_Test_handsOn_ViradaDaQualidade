@@ -21,7 +21,7 @@ public class ClienteTest {
     @Test
     void TestaNomeCliente_ValidaNomeCorretoComAssertJ() {
         Cliente clienteVip = new Cliente("Fulano de Tal");
-        assertThat(clienteVip.getNome()).isEqualTo("XFulano de Tal");
+        assertThat(clienteVip.getNome()).isEqualTo("Fulano de Tal");
     }
 
     @ParameterizedTest
