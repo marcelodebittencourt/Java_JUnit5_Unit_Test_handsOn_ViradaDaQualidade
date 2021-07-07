@@ -1,3 +1,5 @@
+![](https://github.com/marcelodebittencourt/handsOn_JUnit5_ViradaDaQualidade/workflows/tests/badge.svg)
+
 # Hands-on de JUnit 5  
 Este código foi gerado ao longo do hands-on que foi realizado ao vivo no evento Virada da Qualidade. O vídeo original está disponível no link https://www.youtube.com/watch?v=pdEJNU8rUto&t=21391s no ponto de 05h56min.
 
