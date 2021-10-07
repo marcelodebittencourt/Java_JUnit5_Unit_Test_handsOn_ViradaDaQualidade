@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="handsOn_JUnit5_ViradaDaQualidade" />
+        <module name="Java_JUnit5_Unit_Test_handsOn_ViradaDaQualidade" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

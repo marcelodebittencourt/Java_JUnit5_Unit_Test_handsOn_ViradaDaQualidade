@@ -4,10 +4,10 @@
 Este código foi gerado ao longo do hands-on que foi realizado ao vivo no evento Virada da Qualidade. O vídeo original está disponível no link https://www.youtube.com/watch?v=pdEJNU8rUto&t=21391s no ponto de 05h56min.
 
 ## Pré-requisitos
-* Java 8 SDK: https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
-* Maven >= 3.8.1: https://maven.apache.org/download.cgi
-* Git >= 2.32.0: https://git-scm.com/
-* IntelliJ IDEA Community >= 2021.1.3: https://www.jetbrains.com/idea/download
+* [Java 11 SDK](https://www.oracle.com/java/technologies/downloads/#java11)
+* [Maven](https://maven.apache.org/download.cgi) >= 3.8.3 
+* [Git](https://git-scm.com/) >= 2.33.0 
+* [IntelliJ IDEA Community](https://www.jetbrains.com/idea/download) >= 2021.2 
 
 ## O que está contido neste repositório
 * Software-alvo dos testes é parte de um sistema de conta-corrente bancária que contém as classes abaixo disponível nas pasta src > java > principal:
