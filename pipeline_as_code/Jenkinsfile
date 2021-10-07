@@ -7,16 +7,29 @@ pipeline {
     }
 
     stages {
-        stage('Build') {
+
+        stage('Clean target directory') {
             steps {
                 // Get some code from a GitHub repository
                 git 'https://github.com/marcelodebittencourt/Java_JUnit5_Unit_Test_handsOn_ViradaDaQualidade.git'
 
+                bat "mvn clean"
+            }
+        }
+
+        stage('Unit tests') {
+            steps {
+                bat "mvn test"
+            }
+        }
+
+        stage('Build') {
+            steps {
                 // Run Maven on a Unix agent.
                 //sh "mvn -Dmaven.test.failure.ignore=true clean package"
 
                 // To run Maven on a Windows agent, use
-                bat "mvn -Dmaven.test.failure.ignore=true clean package"
+                bat "mvn -Dmaven.test.failure.ignore=true package"
             }
 
             post {
