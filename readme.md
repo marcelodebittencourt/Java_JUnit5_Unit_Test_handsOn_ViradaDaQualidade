@@ -76,3 +76,7 @@ Este código foi gerado ao longo do hands-on que foi realizado ao vivo no evento
 
 ## Contato do autor
 https://marcelodebittencourt.com
+
+## CI/CD suportados:
+* [GitHub Action](https://github.com/marcelodebittencourt/Java_JUnit5_Unit_Test_handsOn_ViradaDaQualidade/blob/master/.github/workflows/test.yml): quando um push é realizado neste repositório do GitHub, os testes são automaticamente executados. 
+* [Jenkins](https://github.com/marcelodebittencourt/Java_JUnit5_Unit_Test_handsOn_ViradaDaQualidade/blob/master/pipeline_as_code/Jenkinsfile): previamente configure na instância do Jenkins o apontamento para o Java JDK 11 e para o Maven coloque o nome de "M3".   
